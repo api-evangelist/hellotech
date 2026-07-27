@@ -1,8 +1,24 @@
 aid: hellotech
 name: HelloTech
-description: 'HelloTech is a company surfaced as a portfolio company of kindred-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'HelloTech is a consumer technology-services company providing in-home and online tech
+  support across the United States through a nationwide network of vetted technicians. Services span
+  computer and printer repair, WiFi and home-networking setup, mobile-device support, audio/video and
+  home-theater installation, TV mounting, smart-home device installation, and home-security setup,
+  offered on-demand or through a HelloTech Home membership plan. HelloTech operates as a consumer
+  services brand and does not publish a public developer API; this profile tracks its public web
+  properties for the API Evangelist network.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.hellotech.com/HT-sharing-logo.png
 url: https://raw.githubusercontent.com/api-evangelist/hellotech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Tech Support
+- Smart Home
+- Home Services
+- Installation
+- IT Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hellotech-domain-security.yml
 - type: Website
   url: https://hellotech.com/
+- type: Blog
+  url: https://www.hellotech.com/blog
+- type: Pricing
+  url: https://www.hellotech.com/plans
+- type: SignUp
+  url: https://www.hellotech.com/login
+- type: Support
+  url: https://www.hellotech.com/faq
+- type: PrivacyPolicy
+  url: https://www.hellotech.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
