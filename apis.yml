@@ -7,6 +7,17 @@ description: 'HelloTech is a consumer technology-services company providing in-h
   offered on-demand or through a HelloTech Home membership plan. HelloTech operates as a consumer
   services brand and does not publish a public developer API; this profile tracks its public web
   properties for the API Evangelist network.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
